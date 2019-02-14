@@ -1,7 +1,7 @@
 # Todo Application v.1
   - Single page todo application build with React and Boilerplate v.1
 
-## What going on ?
+a## What going on ?
   - This application is build as several phases.
   - This is phase 1
   
@@ -11,7 +11,7 @@
     - Functional Components
     - Separate Components
     - Parent / Child Components
-    - CSS Styling w/ Classes
+    - CSS Styling w/ Clsses
     - JSX to JavaScript
     
 ## Production Build
