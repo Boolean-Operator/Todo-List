@@ -1,0 +1,16 @@
+.footer {
+  background-color: lightsteelblue;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: .25rem;
+  
+  
+  // align-items: center;
+}
+
+.footer-text {
+  font-size: $md-size;
+}

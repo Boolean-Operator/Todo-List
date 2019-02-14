@@ -1,0 +1,36 @@
+
+.list-item {
+  display: flex;
+  align-items: center;
+  background-color: $khaki;
+  border: 1px solid $dark-gray;
+  border-radius: 7px;
+  color: $text;
+  flex-direction: row;
+  font-size: $lg-size;
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+  justify-content: space-between;
+  margin: $xs-size;
+  padding: $md-size $sm-size;
+  width: 70%;
+}
+
+input[type=checkbox] {
+  align-items: center;
+  justify-content: center;
+  padding: $sm-size;
+  margin: 0 $sm-size 0 0;
+  zoom: 2;
+}
+
+.button {
+  // display: inline-block;
+  justify-content: space-between;
+  margin: 0 0 0 auto;
+  background-color: $light-blue;
+}
+
+input[type=checkbox]:focus {
+  outline: 0;
+}

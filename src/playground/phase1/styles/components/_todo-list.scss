@@ -1,0 +1,44 @@
+
+.todo-list {
+  align-items: center;
+  background-color: $linen;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  padding: $sm-size;
+  position: relative;
+  border: 1px solid #efefef;
+}
+
+.todo-list,
+.todo-list::before,
+.todo-list::after {
+  box-shadow:
+    /* The top layer shadow */
+    2px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.todo-list::before,
+.todo-list::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: $light-gray;
+}
+
+/* second page*/
+.todo-list::before {
+  left: 7px;
+  top: 5px;
+  z-index: -1;
+}
+
+/* third page*/
+.todo-list::after {
+  left: 12px;
+  top: 10px;
+  z-index: -2;
+  margin-bottom: $md-size;
+}
