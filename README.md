@@ -4,7 +4,7 @@
 
 ## What going on 
   - This application is build as several Phases.
-  - This is phase 2.
+  - This is phase 1.
   
   * Topics & Subjects : 
     - Why use React
